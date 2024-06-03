@@ -1,8 +1,57 @@
 header
 {
     height: 13vh;
-    background-color: rgb(36, 214, 214);
+    background-color: #063970;
     display: flex;
     align-items: center;
     justify-content: center;
 }
+h1{
+    color: white;
+    text-align: center;
+}
+nav{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    background-color: black;
+    height: 7vh;
+    margin-bottom:1.5rem ;
+}
+
+nav div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+nav a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+
+}
+
+nav div:hover 
+{
+    background-color:azure;
+}
+
+nav div:hover a
+{
+    color: black;
+}
+.announcement
+{
+
+    margin-left: auto;
+    width: 80%;
+   margin-right: auto;
+   padding: 2rem 2rem;
+   background-image: linear-gradient(to right bottom, #507a7a, #023838,#555, #356464, #285959, #555);
+   color: white;
+}
+
+section>ul,p,h1{
+    margin-bottom: 1rem;
+
+}
+
